@@ -1,0 +1,61 @@
+/* Thiết lập cơ bản */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff; /* Sáng mặc định */
+  color: #333333;
+  transition:
+    background-color 0.4s,
+    color 0.4s; /* Hiệu ứng chuyển đổi mềm mại */
+}
+
+/* Định dạng các vùng (header, nav, main, footer) */
+header,
+footer {
+  background-color: #e0e0e0;
+  text-align: center;
+  padding: 15px;
+}
+
+nav {
+  background-color: #333;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  padding: 30px;
+  text-align: center;
+  min-height: 50vh;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 20px 0;
+  cursor: pointer;
+}
+
+/* --- GIAO DIỆN TỐI (DARK MODE) --- */
+body.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+body.dark-mode header,
+body.dark-mode footer {
+  background-color: #1f1f1f; /* Làm tối các khu vực nền xám đi */
+}
