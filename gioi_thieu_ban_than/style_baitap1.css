@@ -5,12 +5,12 @@ body {
   background-color: #ffffff; 
   color: #000000;
   transition:
-    background-color 0.4s,
+    background-color 0.4s, /* thêm hiệu ứng chuyển động từ sáng sang tối */
     color 0.4s;
 }
 
 header,
-footer {
+footer { /* đặt thông số cho header và footer */
   background-color: #e7e9647c;
   text-align: center;
   padding: 15px;
@@ -18,17 +18,16 @@ footer {
 nav {
   background-color: #333;
 }
-nav ul {
-  list-style: none;
+nav ul { 
+  list-style: none; /*bỏ các dấu chấm tròn*/
   margin: 0;
   padding: 10px;
-  display: flex;
+  display: flex; /* sắp các mục menu nằm ngang, căn giữa, cách nhau 20px*/
   justify-content: center;
   gap: 20px;
 }
 nav ul li a {
   color: white;
-  text-decoration: none;
 }
 main {
   padding: 30px;
@@ -39,9 +38,9 @@ button {
   padding: 10px 20px;
   font-size: 16px;
   margin: 20px 0;
-  cursor: pointer;
+  cursor: pointer; /* thay đổi con trỏ chuột */
 }
-body.dark-mode {
+body.dark-mode { /* thêm class dark-mode cho phần tử body */
   background-color: #3d3b3b;
   color: #ffffff;
 }
