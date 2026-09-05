@@ -4,7 +4,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #ffffff; /* Sáng mặc định */
-  color: #333333;
+  color: #000000;
   transition:
     background-color 0.4s,
     color 0.4s; /* Hiệu ứng chuyển đổi mềm mại */
@@ -59,3 +59,4 @@ body.dark-mode header,
 body.dark-mode footer {
   background-color: #1f1f1f; /* Làm tối các khu vực nền xám đi */
 }
+
